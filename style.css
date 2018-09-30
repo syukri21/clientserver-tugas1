@@ -534,6 +534,10 @@ clip-path: polygon(0 23%, 100% 0%, 100% 79%, 0% 100%);
   opacity: 0;
 }
 
+.gallery img:hover {
+  transition: all 200ms ease-in-out !important;
+  transform: scale(1.1);
+}
 .gallery .title {
   display: flex;
   flex-direction: column;
@@ -579,7 +583,8 @@ clip-path: polygon(0 23%, 100% 0%, 100% 79%, 0% 100%);
 }
 
 .gallery img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1)  !important;
+  cursor: pointer;
   transition: all 300ms ease-in-out ;
 
 }
